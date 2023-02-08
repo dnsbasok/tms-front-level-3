@@ -1,0 +1,46 @@
+/*Default styles*/
+
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 400 1.125rem/1.17 'Raleway';
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  line-height: 1.37;
+}
+
+h3 {
+  font-size: 1.875rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-weight: inherit;
+}
+
+/*Common styles*/
+
