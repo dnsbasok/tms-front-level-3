@@ -3,6 +3,8 @@
 }
 
 .social__content {
+  display: flex;
+  justify-content: space-between;
   padding: 1rem 0;
 }
 
@@ -15,11 +17,7 @@
   color: #86878b;
 }
 
-.social__link {
-  color: aqua;
-}
-
-.social__icon {
-  fill:aqua;
-  color: aqua;
+.social__menu {
+  display: flex;
+  gap: 1.875rem;
 }
