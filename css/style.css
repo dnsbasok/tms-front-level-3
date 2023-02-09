@@ -144,6 +144,10 @@ img {
   color: #86878b;
 }
 
+.promo__subtitle_white {
+  color: #fff;
+}
+
 .promo__subtitle_sm {
   max-width: 270px;
   color: #fff;
