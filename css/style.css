@@ -121,6 +121,8 @@ img {
 
 .promo__title {
   max-width: 670px;
+
+  margin: 0 auto;
 }
 
 .promo__title_white {
@@ -130,7 +132,7 @@ img {
 .promo__separator {
   max-width: 170px;
   height: 1px;
-  margin: 3.375rem 0 2.75rem 0;
+  margin: 3.375rem auto 2.75rem auto;
   background: var(--color-primary-active);
 }
 
