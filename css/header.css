@@ -1,0 +1,29 @@
+.navbar {
+  background: #000;
+}
+
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__logo {
+  width: 87px;
+}
+
+.navbar__link {
+  padding: 1.85rem 1.75rem;
+  text-transform: capitalize;
+}
+
+.navbar__link:hover {
+  background-color: var(--color-primary-default);
+}
+
+.navbar__link:active {
+  background-color: var(--color-primary-active);
+}
