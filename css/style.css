@@ -97,6 +97,21 @@ img {
   color: #bdbdbd;
 }
 
+/*Textarea*/
+
+.textarea {
+  display: block;
+  width: 370px;
+  max-width: 370px;
+  padding: 0;
+  padding-bottom: 1rem;
+  appearance: none;
+  border: 0;
+  border-bottom: 0.0625rem solid #bdbdbd;
+  font: 400 0.875rem/1.36 'Open Sans';
+  color: #bdbdbd;
+}
+
 /*Logo*/
 
 .logo {
