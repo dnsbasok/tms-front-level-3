@@ -1,0 +1,25 @@
+.social {
+  background: #f8efef;
+}
+
+.social__content {
+  padding: 1rem 0;
+}
+
+.social__promo {
+  max-width: 470px;
+}
+
+.social__desription {
+  margin-top: 2rem;
+  color: #86878b;
+}
+
+.social__link {
+  color: aqua;
+}
+
+.social__icon {
+  fill:aqua;
+  color: aqua;
+}
