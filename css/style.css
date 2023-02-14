@@ -155,6 +155,11 @@ img {
   background: #fff;
 }
 
+.promo__separator_left {
+  margin: 3.375rem 0 2.75rem 0;
+  background: #fff;
+}
+
 .promo__subtitle {
   color: #86878b;
 }
