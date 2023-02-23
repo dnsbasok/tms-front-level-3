@@ -1,0 +1,47 @@
+.btn {
+  font: 600 1.125rem/1.39 'Open sans';
+  text-decoration: none;
+  background-color: transparent;
+  border: 0.125rem solid transparent;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.0625rem 5.625rem;
+
+  color: #000;
+
+  &_primary {
+    border: 0.125rem solid #fff;
+    color: #fff;
+
+    &:hover {
+      border: 0.125rem solid $color-primary-default;
+      color: $color-primary-default;
+    }
+
+    &:active {
+      background: $color-primary-active;
+      border: 0.125rem solid $color-primary-active;
+      color: #fff;
+    }
+  }
+
+  &_secondary {
+    background: $color-primary-default;
+    color: #fff;
+
+    &:hover {
+      background: $color-primary-active;
+      color: #fff;
+    }
+
+    &:active {
+      background: $color-primary-default;
+      color: #fff;
+      box-shadow: inset 0px 0px 10px $color-primary-active;
+    }
+  }
+}

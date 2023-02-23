@@ -1,0 +1,25 @@
+.navbar {
+  background: #000;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    display: flex;
+  }
+
+  &__link {
+    padding: 1.85rem 1.75rem;
+    text-transform: capitalize;
+
+    &:hover {
+      background-color: $color-primary-default;
+    }
+
+    &:active {
+      background-color: $color-primary-active;
+    }
+  }
+}

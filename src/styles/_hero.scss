@@ -1,0 +1,10 @@
+.hero {
+  background: url('../images/bg_hero.jpg') no-repeat;
+  background-size: 100%;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 208px 0 185px 0;
+  }
+}

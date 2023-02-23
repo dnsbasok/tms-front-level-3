@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 400 1.125rem/1.17 'Raleway';
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+
+h3,
+h4 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  line-height: 1.37;
+}
+
+h3 {
+  font-size: 1.875rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-weight: inherit;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: inherit;
+}
+
+a {
+  font-family: 'Open Sans';
+  font-size: 0.865rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/*Input*/
+
+.input {
+  display: block;
+  width: 370px;
+  max-width: 370px;
+  padding: 0;
+  padding-bottom: 1rem;
+  appearance: none;
+  border: 0;
+  border-bottom: 0.0625rem solid #bdbdbd;
+  font: 400 0.875rem/1.36 'Open Sans';
+  color: #bdbdbd;
+}
+
+/*Textarea*/
+
+.textarea {
+  display: block;
+  width: 370px;
+  max-width: 370px;
+  padding: 0;
+  padding-bottom: 1rem;
+  appearance: none;
+  border: 0;
+  border-bottom: 0.0625rem solid #bdbdbd;
+  font: 400 0.875rem/1.36 'Open Sans';
+  color: #bdbdbd;
+}
+
+/*Logo*/
+
+.logo {
+  width: 87px;
+
+  &_lg {
+    width: 170px;
+  }
+}
+
+.awesome {
+  padding: 3.25rem 0 3.625rem 0;
+}
+
+.banner {
+  background: url('../images/bg_banner.jpg');
+  padding: 6.5rem 0 3.125rem 0;
+}
+
+.contact {
+  padding: 6.5rem 0 3.125rem 0;
+  text-align: center;
+}

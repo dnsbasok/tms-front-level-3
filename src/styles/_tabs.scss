@@ -1,0 +1,31 @@
+.tabs {
+  padding: 100px 0 52px 0;
+
+  &__item {
+    font-family: 'Open Sans';
+    font-size: 0.875rem;
+    font-weight: inherit;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #333;
+    padding: 0.625rem 5.15625rem;
+    border: none;
+
+    &_active {
+      border: 1px solid #C6CBCD;
+      border-bottom: none;
+      border-radius: 5px 5px 0px 0px;
+      box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);
+    }
+  }
+
+  &__content {
+    border: 1px solid #C6CBCD;
+  }
+}

@@ -1,0 +1,23 @@
+.social {
+  background: #f8efef;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+
+  &__promo {
+    max-width: 470px;
+  }
+
+  &__desription {
+    margin-top: 2rem;
+    color: #86878b;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 1.875rem;
+  }
+}

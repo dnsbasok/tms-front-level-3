@@ -1,0 +1,15 @@
+.form-contact {
+  display: flex;
+  gap: 1.875rem;
+  margin-top: 5.625rem;
+
+  &__field {
+    margin: 2.0625rem auto 0;
+    max-width: 570px;
+    width: 570px;
+  }
+
+  &__btn {
+    margin: 3.125rem auto 0 auto;
+  }
+}

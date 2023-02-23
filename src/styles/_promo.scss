@@ -1,0 +1,51 @@
+.promo {
+  text-align: center;
+  margin: 0 auto;
+
+  &_left {
+    text-align: left;
+    margin: 0;
+  }
+
+  &__title {
+    max-width: 670px;
+    margin: 0 auto;
+
+    &_white {
+      color: #fff;
+    }
+  }
+
+  &__separator {
+    max-width: 170px;
+    height: 1px;
+    margin: 3.375rem auto 2.75rem auto;
+    background: $color-primary-active;
+
+    &_white {
+      background: #fff;
+    }
+
+    &_left {
+      margin: 3.375rem 0 2.75rem 0;
+      background: #fff;
+    }
+  }
+
+  &__subtitle {
+    color: #86878b;
+
+    &_white {
+      color: #fff;
+    }
+
+    &_sm {
+      max-width: 270px;
+      color: #fff;
+    }
+  }
+
+  &__btn {
+    margin-top: 2.625rem;
+  }
+}

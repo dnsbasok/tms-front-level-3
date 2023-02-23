@@ -1,0 +1,20 @@
+$color-primary-default: #ec7979;
+$color-primary-active: #ab4949;
+
+// Base
+@import './scaffold';
+
+// Components
+@import './btn';
+@import './promo';
+@import './navbar';
+@import './hero';
+@import './form-sign';
+@import './social';
+@import './tabs';
+@import './article';
+@import './features';
+@import './pricing';
+@import './list';
+@import './form-contact';
+@import './footer';
