@@ -13,6 +13,14 @@
 
   color: #000;
 
+  @media (max-width: 1024px) {
+    padding: 0.75rem 3rem;
+  }
+
+  @media (max-width: 320px) {
+    width: 100%;
+  }
+
   &_primary {
     border: 0.125rem solid #fff;
     color: #fff;

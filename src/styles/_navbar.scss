@@ -1,5 +1,6 @@
 .navbar {
   background: #000;
+  width: 100%;
 
   &__content {
     display: flex;
@@ -8,6 +9,10 @@
 
   &__menu {
     display: flex;
+
+    @media (max-width: 320px) {
+      display: none;
+    }
   }
 
   &__link {

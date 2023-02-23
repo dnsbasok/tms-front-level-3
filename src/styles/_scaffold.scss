@@ -13,6 +13,10 @@ h1 {
   font-size: 3rem;
   font-weight: 500;
   text-transform: uppercase;
+
+  @media (max-width: 1024px) {
+    font-size: 2.25rem;
+  }
 }
 
 h2 {
@@ -34,6 +38,14 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+
+  @media (max-width: 1024px) {
+    font-size: 1.125rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 0.875rem;
+  }
 }
 
 h5 {
@@ -44,6 +56,10 @@ h5 {
 p {
   font-size: 1.125rem;
   font-weight: inherit;
+
+  @media (max-width: 1024px) {
+    font-size: 0.875rem;
+  }
 }
 
 a {
@@ -65,6 +81,16 @@ img {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+
+  @media (max-width: 1024px) {
+    max-width: 992px;
+    padding: 0 16px;
+  }
+
+  @media (max-width: 320px) {
+    max-width: 288px;
+    padding: 0 16px;
+  }
 }
 
 /*Input*/
@@ -80,6 +106,10 @@ img {
   border-bottom: 0.0625rem solid #bdbdbd;
   font: 400 0.875rem/1.36 'Open Sans';
   color: #bdbdbd;
+
+  @media (max-width: 320px) {
+    max-width: 240px;
+  }
 }
 
 /*Textarea*/

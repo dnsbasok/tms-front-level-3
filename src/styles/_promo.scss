@@ -5,11 +5,38 @@
   &_left {
     text-align: left;
     margin: 0;
+
+    @media (max-width: 1024px) {
+      margin-left: 100px;
+    }
+
+    @media (max-width: 320px) {
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  &__logo {
+    @media (max-width: 1024px) {
+      width: 115px;
+    }
+
+    @media (max-width: 320px) {
+      display: none;
+    }
   }
 
   &__title {
     max-width: 670px;
     margin: 0 auto;
+
+    @media (max-width: 1024px) {
+      width: 454px;
+    }
+
+    @media (max-width: 320px) {
+      max-width: 288px;
+    }
 
     &_white {
       color: #fff;
@@ -22,13 +49,21 @@
     margin: 3.375rem auto 2.75rem auto;
     background: $color-primary-active;
 
+    @media (max-width: 1024px) {
+      margin: 2.625rem auto 2rem auto;
+    }
+
     &_white {
       background: #fff;
     }
 
     &_left {
-      margin: 3.375rem 0 2.75rem 0;
+      margin-left: 0;
       background: #fff;
+    }
+
+    @media (max-width: 320px) {
+      margin: 2.625rem auto 2rem auto;
     }
   }
 

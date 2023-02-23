@@ -6,9 +6,28 @@
   background: #fff;
   text-align: center;
 
+  @media (max-width: 1024px) {
+    width: 398px;
+    max-width: 398px;
+  }
+
+  @media (max-width: 320px) {
+    max-width: 288px;
+    padding-top: 2.25rem;
+    margin-top: 3.5rem;
+  }
+
   &__title {
     text-transform: uppercase;
-    margin: 1.875rem 0 2.5rem 0;
+    margin: 1.875rem 0 4.5625rem 0;
+
+    @media (max-width: 1024px) {
+      margin: 1.875rem 0 4.8125rem 0;
+    }
+
+    @media (max-width: 320px) {
+      margin: 0;
+    }
 
     &_red {
       color: $color-primary-default;
@@ -23,5 +42,9 @@
     width: 100%;
     margin-top: 4.6875rem;
     border-radius: 0px 0px 0.625rem 0.625rem;
+
+    @media (max-width: 320px) {
+      margin-top: 3.1875rem;
+    }
   }
 }
